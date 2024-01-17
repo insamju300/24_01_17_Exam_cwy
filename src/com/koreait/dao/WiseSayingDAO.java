@@ -42,8 +42,8 @@ public class WiseSayingDAO {
 		return autoIncrement++;
 	}
 	
-	public boolean isNotExists(int id) {
-		return db.stream().filter(a->a.getId()==id).findFirst().isEmpty();	
-	}
+//	public boolean isNotExists(int id) {
+//		return db.stream().filter(a->a.getId()==id).findFirst().isEmpty();	
+//	}
 
 }
